@@ -25,32 +25,32 @@
       <header class="container mx-auto">
 
            <!-- todo navbar start-->
-                 <nav class="flex justify-between items-center my-5">
+                 <nav class="flex justify-between items-center my-5 lg:mx-10 mx-5">
                     <!-- *nav logo -->
                       <div>
-                          <img class="w-[150px]" src="./images/logo2.png" alt="">
+                          <img class="lg:w-[150px] w-[100px] md:w-[125px]" src="./images/logo2.png" alt="">
                       </div>
 
                       <!-- *nav li list -->
-                      <ul class="flex gap-20">
-                        <li>Home</li>
+                      <ul class="lg:gap-20 lg:flex lg:block hidden md:block md:flex md:gap-10">
+                        <li class="cursor-pointer">Home</li>
 
-                        <li class="flex">Service <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <li class="flex cursor-pointer">Service <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                          <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                               </svg>
                         </li>
 
-                        <li class="flex">Cases <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <li class="flex cursor-pointer">Cases <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                           </svg>
                         </li>
 
-                        <li class="flex">Blog <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <li class="lg:flex cursor-pointer lg:block md:hidden">Blog <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                           </svg>
                         </li>
 
-                        <li class="flex">Contact Us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <li class="lg:flex cursor-pointer lg:block md:hidden">Contact Us <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                             <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                           </svg>
                         </li>
@@ -58,11 +58,30 @@
 
                       <!-- *nav button -->
                       <div>
-                          <button class="bg-[#B68C5A] text-[#FFFFFF] py-2 px-5 rounded-full">Free Consultation</button>
+                          <button class="bg-[#B68C5A] text-[#FFFFFF] py-2 lg:px-5 px-4 rounded-full lg:text-base text-sm cursor-pointer">Free Consultation</button>
                       </div>
                  </nav>
-           <!-- todo navbar end-->
+           <!-- ? navbar end-->
 
+
+
+           <!--todo banner section start  -->
+                 <div class="banner items-center flex justify-center mt-10 py-10 h-[550px] mx-10">
+                 
+                    <div class="text-center space-y-7">
+                         <h1 class="font-extrabold text-7xl text-slate-300">We Provide Effective <br> Legal Solutions</h1>
+                         <p class="text-lg text-slate-300">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+
+                      <div class="flex gap-5 justify-center">
+                        <input type="email" placeholder="Search your services" class="btn-grad">
+
+                        <button class="py-2 px-10 bg-[#B68C5A] text-[#FFFFFF] rounded-xl">Search</button>
+                      </div>
+
+                    </div>
+                      
+                 </div>
+           <!--todo banner section end  -->
 
       </header>
 <!-- //header section end-->
