@@ -13,20 +13,3 @@
 }
 
          
-.btn-grad {
-    border: 3px solid snow;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    border-radius: 10px;
-    padding: 13px;
-    background: none;
-    width: 350px;
-  }
-
-  .btn-grad:hover {
-    background-position: right center; /* change the direction of the change here */
-    color: #fff;
-    text-decoration: none;
-  }
- 
