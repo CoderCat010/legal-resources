@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,7 @@
 <!--!links -->
     <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.4.24/dist/full.min.css" rel="stylesheet" type="text/css" />
    
 
 <!--!icon links -->
@@ -26,7 +27,7 @@
       <header class="container mx-auto">
 
            <!-- todo navbar start-->
-                 <nav class="flex justify-between items-center lg:mx-10 mx-5">
+                 <nav class="flex justify-between items-center my-5 lg:mx-10 mx-5">
                     <!-- *nav logo -->
                       <div>
                           <img class="lg:w-[150px] w-[100px] md:w-[125px]" src="./images/logo2.png" alt="">
@@ -74,11 +75,11 @@
 
                          <h1 class="font-extrabold lg:text-6xl md:text-5xl text-3xl text-slate-300">We Provide Effective <br> Legal Solutions</h1>
 
-                         <p class="lg:text-lg md:text-base text-xs lg:px-0 px-[10%] text-slate-300">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
+                         <p class="lg:text-lg md:text-base text-xs lg:px-0 px-[10%] text-neutral-400">There are many variations of passages of Lorem Ipsum available, but the majority <br> have suffered alteration in some form, by injected humour.</p>
 
                       <div class="gap-4 flex lg:flex-row md:flex-row flex-col justify-center">
 
-                          <input type="email" placeholder="Search your services" class="py-3 pl-3 lg:w-[350px] md:w-[300px] w-[280px] bg-transparent border-[2px] rounded-xl lg:mx-0 md:mx-0 mx-auto lg:mb-0 md:mb-0 mb-3">
+                          <input type="email" placeholder="Search your services" class="py-3 pl-3 lg:w-[350px] md:w-[300px] w-[280px] bg-transparent border-[1px] border-neutral-400 rounded-xl lg:mx-0 md:mx-0 mx-auto lg:mb-0 md:mb-0 mb-3">
 
                           <button class="py-3 px-10 lg:mx-0 md:mx-0 mx-[25%] bg-[#B68C5A] text-[#FFFFFF] rounded-xl">Search</button>
                           
@@ -101,7 +102,7 @@
 <!-- *section-1 start from here -->
       <section class="my-[100px]">
        <!--?section-1 cards parent div  -->
-        <div class="mx-10 justify-center">
+        <div class="lg:mx-10 mx-5 justify-center">
 
             <!-- *section-1 title start here -->
            <div class="text-center pt-10 pb-20 space-y-3">
@@ -234,6 +235,117 @@
       </section>
 <!-- section-1 end from here -->
 
+
+
+<!-- *section-2 start from here -->
+      <section class="my-[100px]">
+
+        <!-- *section-2 title start here -->
+          <div class="text-center pt-10 pb-20 space-y-3">
+              <h1 class="font-extrabold text-4xl">What Our Client Say</h1>
+              <p>There are many variations of passages of Lorem Ipsum available, but the majority have <br> suffered alteration in some form, by injected humour.</p>
+           </div>
+
+        <!-- *slider-main start -->
+          <div class="lg:mx-10 mx-5">
+            <!-- ?slider parent div start from here -->
+            <div class="carousel w-full h-[500px]">
+                
+                <!-- todo slider-1 -->
+                <div id="slide1" class="carousel-item relative w-full justify-center items-center sec-slider-1">
+                    <!-- *slider-1-title -->
+                  <div class="space-y-5">
+                      <div class="flex justify-center">
+                        <img src="./images/ɴᴏᴛʏᴏᴜʀꜰᴀᴠ.jpeg" class="w-28 h-28 rounded-full"/>
+                      </div>
+
+                       <div class="text-center space-y-3">
+                           <h1 class="font-semibold text-xl text-white">Ryan Doe</h1>
+
+                           <p class="text-slate-300">UIX Designer</p>
+
+                           <p class="lg:text-sm md:text-sm text-xs text-neutral-400 lg:px-0 md:px-0 px-[10%] pt-2">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of <br> classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock,<br> a Latin professor at Hampden-Sydney College in Virginia, looked up <br> one of the more obscure Latin words, consectetur.</p>
+                       </div>
+                  </div>
+
+                  <!-- ?slider1-action -->
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide4" class="btn btn-circle"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                      </svg>
+                       </a> 
+
+                    <a href="#slide2" class="btn btn-circle"> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg>
+                       </a>
+                  </div>
+                </div> 
+
+                 <!-- todo slider-2 -->
+                <div id="slide2" class="carousel-item relative w-full justify-center items-center sec-slider-2">
+                 <!-- *slider-2-title -->
+                 <div class="space-y-5">
+                    <div class="flex justify-center">
+                      <img src="./images/fd897b84-af1b-4ecf-9049-a443c1d07536.jpeg" class="w-28 h-28 rounded-full"/>
+                    </div>
+
+                     <div class="text-center space-y-3">
+                         <h1 class="font-semibold text-xl text-white">Zayn Rei</h1>
+
+                         <p class="text-slate-300">Robotics Engineer</p>
+
+                         <p class=" text-neutral-400 lg:text-sm md:text-sm text-xs lg:px-0 md:px-0 px-[10%] pt-2">Contrary to popular belief, Lorem Ipsum is not judgro random text. It has roots in a ooooo of <br> classical Latiy literature from 45 BC, videos it gink 2009 years old. Richard McClintock,<br> a Latin professor at Hampden-Sydney College in Virginia, looked up <br> one of the more obscure Latin words, consectetur.</p>
+                     </div>
+                </div>
+
+                <!-- ?slider2-action -->
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                      </svg></a> 
+
+                    <a href="#slide3" class="btn btn-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg></a>
+                  </div>
+                </div> 
+
+                 <!-- todo slider-3 -->
+                <div id="slide3" class="carousel-item relative w-full justify-center items-center sec-slider-3">
+                   <!-- *slider-3-title -->
+                 <div class="space-y-5">
+                    <div class="flex justify-center">
+                      <img src="./images/05a104ef-0e07-41d7-8a5d-965db97b5b03.jpeg" class="w-28 h-28 rounded-full"/>
+                    </div>
+
+                     <div class="text-center space-y-3">
+                         <h1 class="font-semibold text-xl text-white">Vishal Shoyo</h1>
+
+                         <p class="text-slate-300">Doctor</p>
+
+                         <p class="lg:text-sm md:text-sm text-xs text-neutral-400 lg:px-0 md:px-0 px-[10%] pt-2">Conlrary to popcorn belief, Lorem Ipsum is not simple randoi text. It has roots in a piece of <br> classicae Latin literatore from 45 BC, making it over 2000 years old. Richard McClintock,<br> a Latin professor at Hampden-Sydney College in Virginie, lookes up <br> one of the mori obscure Latin words, consectetur.</p>
+                     </div>
+                </div>
+
+                <!-- ?slider3-action -->
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide2" class="btn btn-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5" />
+                      </svg></a>
+
+                    <a href="#slide1" class="btn btn-circle"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
+                      </svg></a>
+                  </div>
+                </div> 
+
+              </div>
+               <!-- !slider parent div end from here -->
+          </div>
+            <!-- !slider-main end -->
+      </section>
+<!-- section-2 end from here -->
 
 </main>
 <!-- //main section end from here -->
